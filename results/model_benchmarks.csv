@@ -1,0 +1,5 @@
+Model,ROC-AUC,AP,F1-score,Balanced Accuracy,Brier Score
+RGB-only,0.821,0.594,0.625,0.727,0.0505
+Thermal-only,0.801,0.627,0.625,0.727,0.0578
+Early Fusion,0.828,0.699,0.333,0.702,0.2495
+Late Fusion,0.665,0.531,0.625,0.727,0.0716
