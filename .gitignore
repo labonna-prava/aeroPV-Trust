@@ -1,0 +1,46 @@
+# Dataset and generated module crops (root level only)
+/datasets/
+/data/
+/pv_module_crops/
+
+# Model artifacts
+/checkpoints/
+/models/
+*.pt
+*.pth
+*.ckpt
+
+# Generated outputs
+/outputs/
+/figures/generated/
+*.npy
+*.npz
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
